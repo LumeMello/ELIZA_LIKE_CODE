@@ -2,7 +2,7 @@
 
 > "Tell me more about being empty and cold."
 
-Uma implementação moderna e estilizada do clássico chatbot **ELIZA**, recriada em Java. Este projeto une o processamento de linguagem natural pioneiro de Joseph Weizenbaum (1966) com a estética melancólica e neon-noir inspirada em **Katana Zero**.
+Uma implementação moderna e estilizada do clássico chatbot **ELIZA**, recriada em Java. Este projeto une o processamento de linguagem natural pioneiro de Joseph Weizenbaum (1966) com a abordagem de um programador em linguagem moderna
 
 ---
 
@@ -16,10 +16,10 @@ Diferente da ELIZA original que operava em teletipos brancos e cinzas, esta vers
 O sistema utiliza três camadas principais de processamento para criar a "ilusão de consciência":
 
 ### 1. O Motor de Busca (Regex)
-Utilizamos o pacote `java.util.regex` para identificar padrões de fala. O uso de um `LinkedHashMap` garante que frases mais específicas sejam testadas antes de respostas genéricas.
+Utiliza o pacote `java.util.regex` para identificar padrões de fala. O uso de um `LinkedHashMap` garante que frases mais específicas sejam testadas antes de respostas genéricas.
 
 ### 2. Transposição de Pronomes (A Mágica)
-Para que o bot não pareça um simples eco mecânico, implementamos uma função de transformação. Ela mapeia os pronomes da entrada do usuário para o ponto de vista do bot:
+Para que o bot não pareça um simples eco mecânico, foi implementada uma função de transformação. Ela mapeia os pronomes da entrada do usuário para o ponto de vista do bot:
 - **"I"** torna-se **"you"**
 - **"my"** torna-se **"your"**
 - **"me"** torna-se **"you"**
