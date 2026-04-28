@@ -39,6 +39,6 @@ O **"Efeito ELIZA"** descreve a tendência humana de atribuir inconscientemente 
 1. Certifique-se de ter o **JDK 17+** instalado.
 2. Compile o arquivo:
    ```bash
-   javac Main.java
-   java Main
+   javac code.java
+   java code
    ```
