@@ -1,4 +1,4 @@
-# 💾 ELIZA: Protocolo Neo-Noir (Java Edition)
+# 💾 ELIZA (Java Edition)
 
 > "Tell me more about being empty and cold."
 
