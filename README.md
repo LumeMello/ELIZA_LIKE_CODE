@@ -8,7 +8,6 @@ Uma implementação moderna e estilizada do clássico chatbot **ELIZA**, recriad
 
 ## 🕶️ A Estética
 Diferente da ELIZA original que operava em teletipos brancos e cinzas, esta versão foi projetada para rodar em terminais de alta fidelidade:
-- **Efeito Typewriter:** Respostas "digitadas" em tempo real para simular terminais de sistemas de vigilância antigos.
 - **Lógica Socrática:** O bot atua como um espelho psicológico frio, devolvendo questões para o usuário.
 - **Visual Terminal:** Foco em diálogos existenciais e processamento de sentimentos em ambientes minimalistas.
 
